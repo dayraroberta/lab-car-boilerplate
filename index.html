@@ -8,26 +8,50 @@
     <title>Labcar</title>
   </head>
   <body>
-    <nav class="teste navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/logoForma.png">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Viaja <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link active" href="#">Conduce</a>
-          <a class="nav-item nav-link active" href="#">Inicia sesión</a>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand ml-5" href="#">
+          <img src="assets/images/logoForma.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100 mr-5 justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Viaja <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#">Conduce</a>
+            <a class="nav-item nav-link active" href="#">Inicia sesión</a>
+          </div>
+        </div>
+      </nav>
+    </header>  
+    <div class="container-fluid">
+      <div class="row">
+        <div class="taxi-image img-fluid"></div>
+      </div>
+      <div class="row justify-content-end w-100 taxi-box">
+        <div class="col-sm-5 text-white bg-warning">
+          <h2 class="mt-5 pl-4">Disfruta del viaje</h2>
+          <h2 class="pl-4">Eres dueño de tu tiempo</h2>
+          <p class="pl-4 pt-3">Viaja con  <img src="assets/images/logoBlanco.png" height="17"></p>
+          <button type="button" class="btn btn-light ml-4">REGÍSTRATE</button>
+          <div class="row pt-3 justify-content-end"><hr><p>O bien</p><hr></div>
+          <button type="button" class="btn btn-light mb-5 ml-4">Conviértete en un conductor</button>
         </div>
       </div>
-    </nav>
-    <div class="container-fluid p-0">
-      <div class="taxi-image">
-        
+    </div>
+    <section class="container-fluid cell-box bg-warning text-light pt-5 pb-5">
+      <div class="row col-md-10 border border-white border-left-0 pt-5 pb-0 ml-0 pl-0">
+        <div class="cell-image col-md-5 mx-auto pt-5"></div>
+        <div class="col-md-5 mx-auto text-light p-0 pt-3">
+          <h2>Descarga la nueva app</h2>
+          <h4 class="pt-4">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras áus más fácil y rápido.</h4>
+          <h4 class="pt-4">Con solo tocar un botón, un auto llega justo a tu ubicación. Subete y no te preocupes: tu conductor sabe exactamente a dónde ir</h4>
+        </div>
       </div>
-    </div>  
+    </section>
+      
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
