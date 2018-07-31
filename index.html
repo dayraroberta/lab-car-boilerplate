@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.2.0-web/css/all.css">
     <title>Labcar</title>
   </head>
   <body>
@@ -50,7 +51,7 @@
         </div>
       </div>
     </section>
-    <section class="conduce-image img-fluid">
+    <section class="conduce-image img-fluid h-100">
       <div class="container-fluid">
         <div class="row justify-content-end">
           <div class="col-lg-4 text-white p-5 conduce-box">
@@ -60,7 +61,69 @@
           </div>
       </div> 
     </section>
-         
+    <section class="container-fluid row bg-warning text-light pt-5 pb-5">
+      <div class="row col-md-5 mx-auto">
+        <form class="col-md-10 h-100">
+          <div class="form-group row h-100 align-content-center">
+            <h1>Tarifas</h1>
+            <h4>Consulta las tarifas LabCar aquí</h4>
+            <div class="partida form-group row">
+              <img src="assets/images/shape.png" class="col-2 col-form-label" alt="icone de partida">
+              <div class="col-10">
+                <input type="text" class="form-control w-100 bg-transparent border border-light rounded" id="exampleFormControlInput1" placeholder="Ingrese su punto de partida">
+              </div>
+            </div>
+            <div class="detino form-group row">
+              <img src="assets/images/shape2.png" class="col-2 col-form-label" alt="icone de destino">
+              <div class="col-10">
+                <input type="text" class="form-control w-100 bg-transparent border border-light rounded" id="exampleFormControlInput1" placeholder="Ingrese su destino">
+              </div>
+            </div>
+            <button class="btn btn-light col-5 mx-auto" type="button"><a href="#" class="text-dark text-uppercase font-weight-bold" >!Trazar Ruta!</a></button>
+          </div>
+        </form>
+      </div>
+      <div class="row col-4 border border-white mx-auto p-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3008411720807!2d-46.66448878549155!3d-23.557636367338823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582d346045bb%3A0x5737e7d673c4bd0a!2zSWJtZWMgLSBGYWN1bGRhZGUsIEdyYWR1YcOnw6NvLCBWZXN0aWJ1bGFyLCBNQkEsIFDDs3MtR3JhZHVhw6fDo28!5e0!3m2!1spt-BR!2sbr!4v1532842565629" width="475" height="450" frameborder="0" style="border:0" allowfullscreen class=></iframe>
+      </div>
+    </section>
+    <footer class="container-fluid bg-dark text-light">
+      <div class="col-md-10 mx-auto row">
+        <img src="assets/images/logoBlanco.png" class="pt-5" alt="logo">
+        <hr class="w-100">
+        <div class="col-md-10 mx-auto row justify-content-end">
+          <ul class="navbar-nav col-3">
+            <li class="nav-item"><a href="#" class="nav-link">Viaja</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Conduce</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Ciudades</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Ciudades</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Entregas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Cómo funciona?</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Países</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Seguridad</a></li>
+          </ul>
+          <ul class="navbar-nav col-3">
+            <li class="nav-item"><a href="#" class="nav-link">Oportunidades</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Nuestra historia</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">API de LabCar</a></li>
+            <li class="nav-item"><a href="#" class=" nav-link">Eventos</a></li>
+            <li class="nav-item"><a href="#" class=" nav-link">Desarrolladores</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Laboratoria</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Coders</a></li>
+          </ul>
+          <ul class="navbar-nav col-3 justify-content-end">
+            <li class="nav-item"><a href="#" ><img src="assets/images/appstore.png" alt="logo appstore"></a></li>
+            <li class="nav-item"><a href="#" ><img src="assets/images/enBadgeWebGeneric.png" alt="logo google play"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-10 mx-auto row">
+        <i class="fab fa-facebook-f pr-3"></i> <i class="fab fa-twitter pr-3"></i> <i class="fab fa-linkedin-in pr-3"></i> <i class="fab fa-apple pr-3"></i> <i class="fas fa-play pr-3"></i>
+        <hr class="w-100">
+        <p>&copy; 2017 LabCar technologies Inc.</p>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
