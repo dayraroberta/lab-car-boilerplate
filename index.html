@@ -32,24 +32,28 @@
       </div>
       <div class="row justify-content-end w-100 taxi-box">
         <div class="col-md-5 col-12 text-white bg-warning">
-          <h2 class="mt-5 pl-4">Disfruta del viaje</h2>
-          <h2 class="pl-4">Eres dueño de tu tiempo</h2>
-          <p class="pl-4 pt-3">Viaja con  <img src="assets/images/logoBlanco.png" height="17"></p>
-          <button type="button" class="btn btn-light ml-4">REGÍSTRATE</button>
-          <div class="row pt-3 justify-content-end"><hr><p>O bien</p><hr></div>
-          <button type="button" class="btn btn-light mb-5 ml-4">Conviértete en un conductor</button>
+          <h2 class="mt-5 pl-4 when-desktop">Disfruta del viaje</h2>
+          <h2 class="pl-4 when-desktop">Eres dueño de tu tiempo</h2>
+          <p class="pl-4 pt-3 when-desktop">Viaja con  <img src="assets/images/logoBlanco.png" height="17"></p>
+          <button type="button" class="btn btn-light ml-4 when-desktop">REGÍSTRATE</button>
+          <div class="row pt-3 justify-content-end when-desktop"><hr><p>O bien</p><hr></div>
+          <button type="button" class="btn btn-light mb-5 ml-4 when-desktop">Conviértete en un conductor</button>
+          <h2 class="when-mobile pt-5">Comienza a viajar con <img src="assets/images/logoBlanco.png" alt="logo labcar" class="logo-app"></h2>
+          <button type="button" class="btn btn-light ml-4 when-mobile">Descarga el app</button>
         </div>
       </div>
     </div>
     <section class="container-fluid cell-box bg-warning text-light pt-5 pb-5">
-      <div class="row col-md-10 border border-white border-left-0 pt-5 pb-0 ml-0 pl-0">
+      <div class="row col-10 border border-white border-left-0 pt-5 pb-0 ml-0 pl-0">
+          <h2 class="text-light text-center pt-4 when-mobile">La nueva app</h2>
         <div class="cell-image col-md-5 mx-auto pt-5"></div>
         <div class="col-md-5 mx-auto text-light p-0 pt-3">
-          <h2>Descarga la nueva app</h2>
-          <h4 class="pt-4">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras áus más fácil y rápido.</h4>
-          <h4 class="pt-4">Con solo tocar un botón, un auto llega justo a tu ubicación. Subete y no te preocupes: tu conductor sabe exactamente a dónde ir</h4>
+          <h2 class="when-desktop">Descarga la nueva app</h2>
+          <h4 class="pt-4 when-desktop">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras áus más fácil y rápido.</h4>
+          <h4 class="pt-4 when-desktop">Con solo tocar un botón, un auto llega justo a tu ubicación. Subete y no te preocupes: tu conductor sabe exactamente a dónde ir</h4>
         </div>
       </div>
+      <h2 class="text-light text-center when-mobile p-2">Llega a tu destino aún más rápido</h2>
     </section>
     <section class="conduce-image img-fluid h-100">
       <div class="container-fluid">
@@ -61,10 +65,10 @@
           </div>
       </div> 
     </section>
-    <section class="container-fluid row bg-warning text-light pt-5 pb-5">
-      <div class="row col-md-5 mx-auto">
-        <form class="col-md-10 h-100">
-          <div class="form-group row h-100 align-content-center">
+    <section class="tarifas container-fluid row bg-warning text-light pt-5 pb-5">
+      <div class="row col-5 mx-auto">
+        <form class="col-10">
+          <div class="form-group row align-content-center">
             <h1>Tarifas</h1>
             <h4>Consulta las tarifas LabCar aquí</h4>
             <div class="partida form-group row">
@@ -73,7 +77,7 @@
                 <input type="text" class="form-control w-100 bg-transparent border border-light rounded" id="exampleFormControlInput1" placeholder="Ingrese su punto de partida">
               </div>
             </div>
-            <div class="detino form-group row">
+            <div class="destino form-group row">
               <img src="assets/images/shape2.png" class="col-2 col-form-label" alt="icone de destino">
               <div class="col-10">
                 <input type="text" class="form-control w-100 bg-transparent border border-light rounded" id="exampleFormControlInput1" placeholder="Ingrese su destino">
@@ -83,7 +87,7 @@
           </div>
         </form>
       </div>
-      <div class="row col-4 border border-white mx-auto p-3">
+      <div class="row col-4 border border-white mx-auto p-2 container-fluid">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.3008411720807!2d-46.66448878549155!3d-23.557636367338823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582d346045bb%3A0x5737e7d673c4bd0a!2zSWJtZWMgLSBGYWN1bGRhZGUsIEdyYWR1YcOnw6NvLCBWZXN0aWJ1bGFyLCBNQkEsIFDDs3MtR3JhZHVhw6fDo28!5e0!3m2!1spt-BR!2sbr!4v1532842565629" width="475" height="450" frameborder="0" style="border:0" allowfullscreen class=></iframe>
       </div>
     </section>
@@ -93,28 +97,28 @@
         <hr class="w-100">
         <div class="col-md-10 mx-auto row justify-content-end">
           <ul class="navbar-nav col-3">
-            <li class="nav-item"><a href="#" class="nav-link">Viaja</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Conduce</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Ciudades</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Ciudades</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Entregas</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Cómo funciona?</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Países</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Seguridad</a></li>
+            <li class="nav-item">Viaja</li>
+            <li class="nav-item">Conduce</li>
+            <li class="nav-item">Ciudades</li>
+            <li class="nav-item">Ciudades</li>
+            <li class="nav-item">Entregas</li>
+            <li class="nav-item">Cómo funciona?</li>
+            <li class="nav-item">Países</li>
+            <li class="nav-item">Seguridad</li>
           </ul>
           <ul class="navbar-nav col-3">
-            <li class="nav-item"><a href="#" class="nav-link">Oportunidades</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Nuestra historia</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">API de LabCar</a></li>
-            <li class="nav-item"><a href="#" class=" nav-link">Eventos</a></li>
-            <li class="nav-item"><a href="#" class=" nav-link">Desarrolladores</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Laboratoria</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Coders</a></li>
+            <li class="nav-item">Oportunidades</li>
+            <li class="nav-item">Nuestra historia</li>
+            <li class="nav-item">API de LabCar</li>
+            <li class="nav-item">Eventos</li>
+            <li class="nav-item">Desarrolladores</li>
+            <li class="nav-item">Servicios</li>
+            <li class="nav-item">Laboratoria</li>
+            <li class="nav-item">Coders</li>
           </ul>
           <ul class="navbar-nav col-3 justify-content-end">
-            <li class="nav-item"><a href="#" ><img src="assets/images/appstore.png" alt="logo appstore"></a></li>
-            <li class="nav-item"><a href="#" ><img src="assets/images/enBadgeWebGeneric.png" alt="logo google play"></a></li>
+            <li class="nav-item p-2"><a href="#" ><img src="assets/images/appstore.png" alt="logo appstore"></a></li>
+            <li class="nav-item p-2"><a href="#" ><img src="assets/images/enBadgeWebGeneric.png" alt="logo google play"></a></li>
           </ul>
         </div>
       </div>

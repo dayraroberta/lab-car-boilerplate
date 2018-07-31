@@ -49,3 +49,32 @@ hr {
   background-color: rgba(0,0,0, 0.5);
   height: 400px;
 }
+
+.tarifas{
+  width: 101%;
+}
+
+.when-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .when-mobile{
+    display: block;
+    font-size: 1.4rem;
+  }
+
+  .when-desktop{
+    display: none;
+  }
+
+  .taxi-box{
+    height: 40%;
+    padding-left: 10%;
+  }
+
+  .logo-app{
+    height: 20px;
+    width: 90px;
+  }
+}
