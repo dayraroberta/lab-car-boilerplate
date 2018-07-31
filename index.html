@@ -21,7 +21,7 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#">Viaja <span class="sr-only">Viaja</span></a>
             <a class="nav-item nav-link active" href="#">Conduce</a>
-            <a class="nav-item nav-link active" href="#">Inicia sesión</a>
+            <a class="nav-item nav-link active" href="#" data-toggle="modal" data-target="#modal-login">Inicia sesión</a>
           </div>
         </div>
       </nav>
@@ -96,34 +96,34 @@
     </div>
     </section>
     <footer class="container-fluid bg-dark text-light">
-      <div class="col-md-10 mx-auto row">
-        <img src="assets/images/logoBlanco.png" class="pt-5" alt="logo">
-        <hr class="w-100">
-        <div class="col-md-10 mx-auto row justify-content-end">
-          <ul class="navbar-nav col-3">
-            <li class="nav-item">Viaja</li>
-            <li class="nav-item">Conduce</li>
-            <li class="nav-item">Ciudades</li>
-            <li class="nav-item">Ciudades</li>
-            <li class="nav-item">Entregas</li>
-            <li class="nav-item">Cómo funciona?</li>
-            <li class="nav-item">Países</li>
-            <li class="nav-item">Seguridad</li>
-          </ul>
-          <ul class="navbar-nav col-3">
-            <li class="nav-item">Oportunidades</li>
-            <li class="nav-item">Nuestra historia</li>
-            <li class="nav-item">API de LabCar</li>
-            <li class="nav-item">Eventos</li>
-            <li class="nav-item">Desarrolladores</li>
-            <li class="nav-item">Servicios</li>
-            <li class="nav-item">Laboratoria</li>
-            <li class="nav-item">Coders</li>
-          </ul>
-          <ul class="navbar-nav col-3 justify-content-end">
-            <li class="nav-item p-2"><a href="#" ><img src="assets/images/appstore.png" width="60%" alt="logo appstore"></a></li>
-            <li class="nav-item p-2"><a href="#" ><img src="assets/images/enBadgeWebGeneric.png" width="60%" alt="logo google play"></a></li>
-          </ul>
+        <div class="col-md-10 mx-auto row">
+          <img src="assets/images/logoBlanco.png" class="pt-5" alt="logo">
+          <hr class="w-100">
+          <div class="col-md-10 mx-auto row justify-content-end">
+            <ul class="navbar-nav col-3">
+              <li class="nav-item">Viaja</li>
+              <li class="nav-item">Conduce</li>
+              <li class="nav-item">Ciudades</li>
+              <li class="nav-item">Ciudades</li>
+              <li class="nav-item">Entregas</li>
+              <li class="nav-item">Cómo funciona?</li>
+              <li class="nav-item">Países</li>
+              <li class="nav-item">Seguridad</li>
+            </ul>
+            <ul class="navbar-nav d-none d-sm-block col-3">
+              <li class="nav-item">Oportunidades</li>
+              <li class="nav-item">Nuestra historia</li>
+              <li class="nav-item">API de LabCar</li>
+              <li class="nav-item">Eventos</li>
+              <li class="nav-item">Desarrolladores</li>
+              <li class="nav-item">Servicios</li>
+              <li class="nav-item">Laboratoria</li>
+              <li class="nav-item">Coders</li>
+            </ul>
+            <ul class="navbar-nav col-3 justify-content-end">
+              <li class="nav-item p-2"><a href="#" ><img src="assets/images/appstore.png" width="60%" alt="logo appstore"></a></li>
+              <li class="nav-item p-2"><a href="#" ><img src="assets/images/enBadgeWebGeneric.png" width="60%" alt="logo google play"></a></li>
+            </ul>
         </div>
       </div>
       <div class="col-10 mx-auto row">
@@ -131,7 +131,32 @@
         <hr class="w-100">
         <p>&copy; 2017 LabCar technologies Inc.</p>
       </div>
+    </div>
     </footer>
+    <div id="modal-login" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Username</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

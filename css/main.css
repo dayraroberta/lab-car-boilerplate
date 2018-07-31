@@ -58,7 +58,7 @@ hr {
   display: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .when-mobile{
     display: block;
     font-size: 1.4rem;
@@ -72,9 +72,5 @@ hr {
     height: 40%;
     padding-left: 10%;
   }
-
-  .logo-app{
-    height: 20px;
-    width: 90px;
-  }
+ 
 }
